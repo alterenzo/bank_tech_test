@@ -6,7 +6,6 @@ class Account
   end
 
   def deposit(amount)
-    @statement << amount
     @balance += amount
   end
 
